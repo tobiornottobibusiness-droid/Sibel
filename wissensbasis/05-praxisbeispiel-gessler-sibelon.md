@@ -20,6 +20,27 @@
 | 5 Steuerung, Überwachung, Meldung | **SETLON-Steuerung**, eine Kleinsteuerung (SPS) mit E/A-Modulen 2A10, 2A11, 4A21, 4A31 … (Typ C750-8202, die Nummer deutet auf ein WAGO-750-System hin). LEDs: Betriebsstatus, Teststatus, Netz-/Ersatzbetrieb, Systemstörung intern, Dauerlicht, Systemstörung extern. **Touch-Display** in der Tür: Batteriespannung, Ladestrom, Batterietemperatur, Statusliste |
 | Hilfsversorgung | **Mean Well DR-60-24** (24 V DC, 2,5 A = 60 W): Netzteil für die 24-V-Steuerkreise, **kein** Ladeteil |
 
+## Schrankaufteilung (Gesamtfoto)
+```
+ Kabel von oben (orange Mantel = sehr wahrscheinlich Funktionserhaltkabel, Aufdruck prüfen)
+┌────────────────────────────┬──────────────────────────┬──────────────────┐
+│ Feld HVS (links)           │ Feld UVS1 (Mitte)        │ Feld rechts      │
+│ oben: -2F11–13/-2F15       │ oben: 24-V-Netzteil      │ komplett         │
+│  „Speisung vom Hauptnetz“, │  + Datenkabel            │ abgedeckt        │
+│  Klemmleiste -2X1, 24-V-   │                          │ (Reserve oder    │
+│  Klemmen S2–S7, Netzteil,  │ Mitte: F1–F20            │  Ladeteil →      │
+│  Dreiphasenwächter         │  Endstromkreise 2-polig  │  Schaltplan)     │
+│ Mitte: -2F4/-2F5 Batterie, │ dahinter vermutlich      │                  │
+│  -2F1 Netz, -2F10.x Ladung │  Umschaltrelais          │                  │
+│ unten: Fenster Steuerung   │                          │                  │
+├────────────────────────────┴──────────────────────────┴──────────────────┤
+│ Batteriefach: 18 Blöcke auf drei Etagen, Lüftungsschlitze unten          │
+└──────────────────────────────────────────────────────────────────────────┘
+ Tür: Touch-Display außen, Dokumententasche innen, grün-gelbe Türerdung
+```
+- Die LED-Legende an der linken Innenwand nennt „PFC“ und „K-Bus“. Das sind Begriffe aus dem WAGO-750-System, die Steuerung ist also eine WAGO-PFC-SPS.
+- Das Ladeteil ist auf den Fotos nicht zu sehen. Dass es da ist, zeigen der Ladestrom auf dem Display und die Sicherungen „Ladung DC“. **Vermutlich** sitzt es hinter den Berührungsschutz-Abdeckungen (HVS-Feld oder rechtes Feld). Wo genau, zeigt der Schaltplan.
+
 ## Ablesewerte am Display (Momentaufnahme)
 - 245,10 V ÷ 108 = **2,27 V/Zelle**, also Erhaltungsladung wie im Lehrbuch (Folge 2)
 - Batterietemperatur 20,6 °C (ideal 20 °C)
