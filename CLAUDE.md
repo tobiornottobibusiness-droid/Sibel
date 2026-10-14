@@ -18,7 +18,7 @@ Dieses Repo enthält eine Audio-Lernreihe (Deutsch) über Sicherheitsbeleuchtung
    - Aussprache: Kürzel mit Bindestrich („C-P-S“, „D-P-Ü“, „B-C-S“, „P-E“, „I-T-System“). Nicht „Perfekt“ (wird englisch gesprochen), sondern „Klasse“ / „Sehr gut“. „Ampere-Stunde“ mit Bindestrich. Bei Sabine nicht „Zweitens:“ am Satzanfang, sondern „Als Zweites:“. „einhundertacht“ statt „hundertacht“. Zahlen nicht als kurzes Satzfragment an den Satzanfang stellen (vor allem bei Tim), sondern in ganze Sätze einbetten.
 4. `begleitheft.md` schreiben: Lernziele, Spickzettel mit Ziffern/Tabellen, Selbsttest mit aufklappbaren Antworten, Praxisauftrag.
 5. Audio erzeugen: `pip install -r tools/requirements.txt` (falls nötig), dann `python3 tools/make_episode.py --check …/skript.md` und `python3 tools/make_episode.py …/skript.md`.
-6. Gegenhören: Mit Whisper (`pip install faster-whisper`, Modell `small`, Audio per ffmpeg als 16-kHz-Array übergeben) transkribieren und auf falsch gesprochene Wörter prüfen. Betroffene Zeilen umformulieren und neu erzeugen (der Cache macht das schnell).
+6. Gegenhören: `pip install faster-whisper`, dann `python3 tools/check_audio.py …/folge-NN-….mp3 > /tmp/transkript.txt` und das Transkript auf verstümmelte oder englisch gesprochene Wörter prüfen. Betroffene Zeilen umformulieren und neu erzeugen (der Cache macht das schnell).
 7. In `README.md` den Status auf „✅ fertig“ setzen. Committen und auf `claude/sicherheitsbeleuchtung-grundlagen-p0h5d1` pushen.
 8. MP3 und Begleitheft per SendUserFile an den Nutzer schicken. Kurze Nachricht dazu: Thema, Länge, Kernpunkte.
 9. Sind alle Folgen des Staffelplans fertig, die abendliche Routine deaktivieren und dem Nutzer Bescheid geben.
