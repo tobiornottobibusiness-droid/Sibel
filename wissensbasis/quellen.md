@@ -3,7 +3,9 @@
 ## Hersteller INOTEC (Primärquellen zur Anlage)
 - INOTEC Sicherheitstechnik GmbH: *Montage- und Betriebsanleitung Zentralbatteriesystem CPS FUSION, TFT Touch Steuerteil* (MAN 708243, Softwarestand V3.5.10/2.6.0). https://www.inotec-licht.de/fileadmin/myview_assets_sync/pdf/MAN-708243Manual_CPS_Fusion.pdf
 - INOTEC: *Katalog CPS – 230V Geräte und Leuchten* (CPS FUSION), 02/2023 (CAT 707126). https://www.inotec-licht.de/fileadmin/myview_assets_sync/pdf/CAT-707126-CPS_FUSION_Katalog.pdf
-- INOTEC: *Katalog CPS 220/64* (CAT 707074). https://www.inotec-licht.de/fileadmin/myview_assets_sync/pdf/CAT-707074-CPS_220_64.pdf
+- INOTEC: *Montage- und Betriebsanleitung CPS 220/20 / J-SV / J-SKÜ, CPS 220/64 / J-SV / J-SKÜ, TFT Touch* (MAN 708199, Ausgabe 09/2026). https://www.inotec-licht.de/fileadmin/myview_assets_sync/pdf/MAN-708199-Manual_CPS_220_64_TFT_Touch.pdf
+- INOTEC: *Katalog CPS 220/64/SV – Zentralbatteriesystem und Leuchten* (02/2023, CAT 707074). https://www.inotec-licht.de/fileadmin/myview_assets_sync/pdf/CAT-707074-CPS_220_64.pdf
+- INOTEC: Produktseite CPS 220/64. https://inotec-licht.de/en/products/systems-and-modules/cps-22064
 - INOTEC: *Handbuch zur Sicherheitsbeleuchtung und Dynamischen Fluchtweglenkung 2025* (Stand 09/2025). https://www.inotec-licht.de/fileadmin/user_upload/101208382_004_Handbuch_NotundSicherheitsbeleuchtung-2025.pdf
 - INOTEC: *Stellungnahme zur Neufassung der DIN EN 50172:2024-10*. https://www.inotec-licht.de/praxis/stellungnahme-neue-din-en-50172-2024-10/
 
@@ -15,6 +17,11 @@
 - RP-Group: *Normen-Update DIN EN 50172:2024-10* (10/2024). https://www.rp-group.com/Webseite/dokumente/broschueren/Sonstiges/Normen_Update_10_2024.pdf
 - Zumtobel/ONLITE: *Sicherheitsbeleuchtung Deutschland – Normen* (12/2018, ältere Tabelle der Umschaltzeiten). https://www.zumtobel.com/PDB/teaser/de/ONL_Normen_DE.pdf
 - DGWZ: Pressemitteilung „Neue DIN EN 50172 erschienen“ (10/2024). https://www.dgwz.de/wp-content/uploads/Neue-DIN-EN-50172-Sicherheitsbeleuchtung.pdf
+
+## Batterie- und Elektrogrundlagen (Folge 2)
+- Banner StandBy Bull, Bedienungsanleitung verschlossene Bleibatterien (Erhaltungsladespannung, Temperaturkompensation). https://bannerbatterien.com/energysolutions/upload/files/Bedienungsanleitung_StandByBull_verschl_D.pdf
+- Zumtobel, Batteriemerkblatt. https://www.zumtobel.com/PDB/resources/manual/Batteriemerkblatt%20Zumtobel%20de.pdf
+- IEC/TS 60479-1:2005 (Zusammenfassung bei EVS): Wirkungen von Gleichstrom auf den Menschen. https://www.evs.ee/en/iec-ts-60479-1-2005-et
 
 ## Hinweis
 Normtexte selbst sind kostenpflichtig und wurden nicht im Volltext eingesehen. Die Normenangaben stützen sich auf die oben genannten Hersteller- und Fachquellen. Wenn Quellen sich widersprechen, ist das in der Wissensbasis vermerkt.

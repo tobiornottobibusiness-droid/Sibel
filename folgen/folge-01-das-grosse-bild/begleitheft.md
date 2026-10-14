@@ -55,8 +55,8 @@ Notbeleuchtung
 | Dauerlicht (DL) | an | an |
 | Bereitschaftslicht (BL) | aus | an |
 | Geschaltetes Dauerlicht | folgt dem Lichtschalter | an |
-- **JOKER (1998):** Dauer- und Bereitschaftslicht im selben Stromkreis.
-- **FUSION:** Schaltungsart **je Leuchte**, eingestellt am Steuerteil, ohne extra Datenleitung, auch dynamische Rettungszeichen am selben Kreis.
+- **JOKER (1998), so arbeitet die CPS 220/64:** Dauer-, Bereitschafts- und geschaltetes Dauerlicht im selben Stromkreis. Schaltungsart **und** Leuchtenadresse werden **an der Leuchte** eingestellt, mit Mikro-/Adressschaltern am Joker-EVG bzw. J-SV-Modul. Keine extra Datenleitung.
+- **FUSION (Nachfolgerin):** Schaltungsart **je Leuchte am Steuerteil** einstellbar, Adressierung ohne Schalter, auch dynamische Rettungszeichen am selben Kreis.
 
 ### Zwei Arten von Netzausfall
 | Ausfall | Wer merkt es? | Reaktion | Strom kommt aus … |
@@ -87,7 +87,7 @@ Notbeleuchtung
  [4] Umschaltung + Endstromkreise (Stromkreismodule, max. 20 Leuchten/Kreis)
       │   Netzbetrieb: 230 V AC  →  Batteriebetrieb: 216 V DC
       ▼
-   Leuchten (Betriebsgerät verträgt 220–240 V AC und 176–264 V DC)
+   Leuchten (Betriebsgerät verträgt 220–240 V AC und ca. 179–264 V DC)
 
  [5] Steuerung, Überwachung, Meldung: Touch-Steuerteil, Prüfbuch, Tests, Meldungen
 ```
@@ -119,9 +119,9 @@ Notbeleuchtung
 </details>
 
 ## Praxisauftrag (nur schauen, nichts öffnen ohne Kollegen)
-- [ ] **Typenschild:** genaue Bezeichnung notieren, z. B. *CPS FUSION/11kW 1-ph* oder *CPS 220/64*.
-- [ ] **Display:** Farbe des Statusfelds? Batteriespannung ablesen (Erwartung: eher um 240 V als genau 216 V; Auflösung in Folge 2).
-- [ ] **Module:** Aufschriften der Einschübe (z. B. *CF 4x1A*) und die LEDs ansehen.
+- [ ] **Typenschild:** genaue Bezeichnung notieren, z. B. *CPS 220/64/11kW-1 1-ph* (oder *CPS FUSION/…*).
+- [ ] **Display:** Farbe des Statusfelds? Batteriespannung ablesen (Erwartung: eher 240–250 V als genau 216 V; Auflösung in Folge 2).
+- [ ] **Module:** Aufschriften der Einschübe (z. B. *CP 4x2A*, *CP 2x4A*, *CP 1x6A*) und die LEDs ansehen.
 - [ ] **Batterieschrank** mit einem erfahrenen Kollegen ansehen: Wie viele Blöcke? (18, oder 36 bei zwei Strängen)
 - [ ] *(Bonus)* Fragen, wo im Gebäude eine **DPÜ** sitzt.
 

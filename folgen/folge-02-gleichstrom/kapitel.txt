@@ -1,0 +1,11 @@
+00:00  Rückblick auf Folge eins
+02:15  Warum die Notbeleuchtung Gleichstrom mag
+03:51  Die Batterie elektrisch: von der Zelle zur Anlage
+07:45  Ampere-Stunden, Wattstunden und warum es im Notfall weniger sind
+11:29  Die Risiken, Teil eins: Lichtbogen und Batterie
+14:04  Die Risiken, Teil zwei: Der N-Leiter und das Freischalten
+18:14  Isolationsüberwachung: das I-T-Prinzip
+20:08  Messen an Gleichstrom
+21:37  Die Schaltreihenfolge: jetzt verstehst du sie
+22:26  Wiederholung mit Denkpausen
+25:23  Praxisauftrag und Ausblick

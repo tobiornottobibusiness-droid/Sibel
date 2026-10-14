@@ -1,12 +1,14 @@
-# Sicherheitsbeleuchtung verstehen – Referenzanlage INOTEC CPS FUSION
+# Sicherheitsbeleuchtung verstehen – Referenzanlage INOTEC CPS 220/64
 
-Eine Lernreihe zum Hören (z. B. beim Autofahren), mit Begleitheften zum Nachlesen. Sie erklärt Sicherheitsbeleuchtungsanlagen von Grund auf. Als Referenz dient eine konkrete Anlage, damit sich das Wissen später auf jede andere Anlage übertragen lässt.
+Eine Lernreihe zum Hören (z. B. beim Autofahren), mit Begleitheften zum Nachlesen. Sie erklärt Sicherheitsbeleuchtungsanlagen von Grund auf. Als Referenz dient eine konkrete Anlage, die **INOTEC CPS 220/64** (mit Blick auf die Nachfolgerin CPS FUSION), damit sich das Wissen später auf jede andere Anlage übertragen lässt.
+
+**Zielgruppe:** Elektrofachkraft (Energie- und Gebäudetechnik). Wechselstrom-Grundlagen werden vorausgesetzt, Gleichstrom- und Batterietechnik werden gezielt aufgefrischt.
 
 ## Inhalt des Repos
 
 | Ordner | Inhalt |
 |--------|--------|
-| [`wissensbasis/`](wissensbasis/) | Recherchiertes Fachwissen: [Anlage CPS FUSION](wissensbasis/01-cps-fusion-anlage.md), [Normen & Regeln (Stand 10/2026)](wissensbasis/02-normen-und-regeln.md), [Glossar](wissensbasis/03-glossar.md), [Quellen](wissensbasis/quellen.md) |
+| [`wissensbasis/`](wissensbasis/) | Recherchiertes Fachwissen: [Anlage CPS 220/64](wissensbasis/04-cps-220-64.md), [Anlage CPS FUSION](wissensbasis/01-cps-fusion-anlage.md), [Normen & Regeln (Stand 10/2026)](wissensbasis/02-normen-und-regeln.md), [Glossar](wissensbasis/03-glossar.md), [Quellen](wissensbasis/quellen.md) |
 | [`folgen/`](folgen/) | Je Folge: `…mp3` (Audio), `begleitheft.md` (Spickzettel, Selbsttest, Praxisauftrag), `skript.md` (wörtliches Skript), `kapitel.txt` (Kapitelmarken) |
 | [`tools/`](tools/) | `make_episode.py`: erzeugt aus einem Skript die MP3 (zwei Stimmen, Denkpausen, Kapitel-Gong) |
 
@@ -15,13 +17,13 @@ Eine Lernreihe zum Hören (z. B. beim Autofahren), mit Begleitheften zum Nachles
 | # | Folge | Kerninhalte | Status |
 |---|-------|-------------|--------|
 | 1 | **Das große Bild** | Wozu Sicherheitsbeleuchtung, Begriffsbaum, 1 lx/0,5 lx/15 lx, Umschaltzeit und Nennbetriebsdauer, Schaltungsarten, Netzausfall HV vs. UV, EB/LPS/CPS, **die 5 Bausteine** | ✅ fertig |
-| 2 | Elektro-Grundlagen für die Anlage | Spannung, Strom, Leistung, AC/DC, Amperestunden und Wattstunden, Ladespannung (warum ≈ 240 V statt 216 V), Rechenbeispiel Batteriedimensionierung | geplant |
+| 2 | **Gleichstrom für Wechselstrom-Profis** | Warum LED-Geräte DC vertragen, Batterie-Spannungen pro Zelle (≈ 245 V statt 216 V), Ah/Wh und Entladezeit, Überschlag, **die 6 Gleichstrom-Regeln** (Lichtbogen, Batterie, N im Notbetrieb, Freischalten, Körperwirkung, Polarität), I-T-Prinzip, Messen an DC, Schaltreihenfolge | ✅ fertig |
 | 3 | Recht und Normen kompakt | Baurecht, Arbeitsschutz, EN 1838:2025, EN 50172:2024 + Übergang, EN 50171, VDE 0100-560, MLAR/E30, Prüfpflichten | geplant |
-| 4 | Die CPS FUSION von außen nach innen | Typen 1,5–22 kW, Typenschild, Schrankaufbau, Steuerteil, Baugruppenträger, Klemmleisten X1/X2/X3 | geplant |
+| 4 | Die CPS 220/64 von außen nach innen | Typen 1–22 kW, Typenschild, Schrankaufbau, Steuerteil, Baugruppenträger, Klemmleisten X1/X2/X3, Unterschiede zur FUSION | geplant |
 | 5 | Baustein 3: Die Batterie | OGi-Blöcke, 216 V, Alterung und 25 % Reserve, Temperatur, Tiefentladeschutz 185 V, Lüftung, BCS | geplant |
 | 6 | Bausteine 1+2: Netz, Ladeteil, Umschaltung | Ladeteile, 12 h/80 %, RIF 5, DPÜ/Stromschleife, Nachlauf, Handrückschaltung, Blockieren | geplant |
-| 7 | Baustein 4: Stromkreismodule und Endstromkreise | CF 4x1A/2x2,5A/1x5A, Sicherungen, LEDs, 20 Leuchten/60 %, Mischbetrieb, 24-V-Technik | geplant |
-| 8 | Leuchten und Betriebsgeräte | Rettungszeichen vs. Sicherheitsleuchte, FLD/FMD, Einzel-LED-Überwachung, Learn-Mode, Stromkreisprüfung, dynamische Leuchten | geplant |
+| 7 | Baustein 4: Stromkreismodule und Endstromkreise | CP 4x2A/2x4A/1x6A (FUSION: CF …), Sicherungen, LEDs, 20 Leuchten/60 %, Joker-Mischbetrieb, 24-V- und D.E.R.-Technik | geplant |
+| 8 | Leuchten und Betriebsgeräte | Rettungszeichen vs. Sicherheitsleuchte, Joker-EVG/J-SV-Modul (Mikro- und Adressschalter), FUSION-Geräte, Überwachungsarten, dynamische Leuchten | geplant |
 | 9 | Erweiterungen und Busse | IB1/IB2/IB3, RTG, Unterstation CPUS vs. BUS-Unterstation CPUSB, LSA, MTB, Leitungslängen, Funktionserhalt | geplant |
 | 10 | Bedienung und Software | Display, Statusfarben, Menü, Prüfbuch, Konfigurator, INOWeb, INOView, Gebäudeleittechnik | geplant |
 | 11 | Prüfen und Warten in der Praxis | täglich bis 3-jährlich, Funktions- und Betriebsdauertest, Isolationsmessung, Batterieinspektion, Ein-/Ausschaltreihenfolge | geplant |
@@ -51,6 +53,7 @@ python3 tools/make_episode.py folgen/folge-01-das-grosse-bild/skript.md         
 ```
 
 - Stimmen: Microsoft-Neural-Stimmen über `edge-tts`. Sabine = `de-DE-SeraphinaMultilingualNeural`, Tim = `de-DE-FlorianMultilingualNeural`.
+- Tempo: `RATE = "+15%"` in `tools/make_episode.py` (ca. 1,2-fach gegenüber der ersten Fassung). Denkpausen bleiben unverändert lang.
 - Ausgabe: MP3, Mono, 64 kbit/s, auf −16 LUFS normalisiert (gut für Autolautsprecher), mit Kapitelmarken.
 - Schon erzeugte Sätze werden in `.tts-cache/` zwischengespeichert. Bei Änderungen werden nur die geänderten Zeilen neu erzeugt.
 - Qualitätskontrolle: Jede Folge wird per Spracherkennung (Whisper) gegengehört. Bisherige Aussprache-Erkenntnisse für die mehrsprachigen Stimmen:
@@ -58,6 +61,7 @@ python3 tools/make_episode.py folgen/folge-01-das-grosse-bild/skript.md         
   - „Perfekt“ wird englisch gesprochen. Besser „Klasse“ oder „Sehr gut“.
   - „Amperestunde“ → „Ampere-Stunde“ schreiben.
   - „Zweitens:“ am Satzanfang (Sabine) klingt verwaschen. Besser „Als Zweites:“.
+  - „einhundertacht“ statt „hundertacht“ schreiben. Zahlen nicht als kurzes Satzfragment an den Satzanfang stellen.
 
 ## Wichtiger Hinweis
 

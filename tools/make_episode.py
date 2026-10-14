@@ -48,10 +48,10 @@ VOICES = {
     "SABINE": "de-DE-SeraphinaMultilingualNeural",
     "TIM": "de-DE-FlorianMultilingualNeural",
 }
-RATE = "-4%"
+RATE = "+15%"   # entspricht ca. 1,2-fachem Tempo gegenüber der ersten Fassung (-4 %)
 SAMPLE_RATE = 24000
-GAP_SAME_SPEAKER = 0.30
-GAP_SPEAKER_CHANGE = 0.45
+GAP_SAME_SPEAKER = 0.25
+GAP_SPEAKER_CHANGE = 0.38
 GAP_AROUND_GONG = 0.6
 
 REPO = Path(__file__).resolve().parent.parent
@@ -245,7 +245,7 @@ def main():
     check_spoken_text(events)
     n_speech = sum(1 for e in events if e[0] == "speech")
     n_words = sum(len(e[1][1].split()) for e in events if e[0] == "speech")
-    print(f"{n_speech} Sprechzeilen, {n_words} Wörter (≈ {n_words / 115:.0f} min)")
+    print(f"{n_speech} Sprechzeilen, {n_words} Wörter (≈ {n_words / 135:.0f} min)")
     if args.check:
         return
 
