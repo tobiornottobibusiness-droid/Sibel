@@ -18,17 +18,21 @@ Eine Lernreihe zum Hören (z. B. beim Autofahren), mit Begleitheften zum Nachles
 |---|-------|-------------|--------|
 | 1 | **Das große Bild** | Wozu Sicherheitsbeleuchtung, Begriffsbaum, 1 lx/0,5 lx/15 lx, Umschaltzeit und Nennbetriebsdauer, Schaltungsarten, Netzausfall HV vs. UV, EB/LPS/CPS, **die 5 Bausteine** | ✅ fertig |
 | 2 | **Gleichstrom für Wechselstrom-Profis** | Warum LED-Geräte DC vertragen, Batterie-Spannungen pro Zelle (≈ 245 V statt 216 V), Ah/Wh und Entladezeit, Überschlag, **die 6 Gleichstrom-Regeln** (Lichtbogen, Batterie, N im Notbetrieb, Freischalten, Körperwirkung, Polarität), I-T-Prinzip, Messen an DC, Schaltreihenfolge | ✅ fertig |
-| 3 | Recht und Normen kompakt | Baurecht, Arbeitsschutz, EN 1838:2025, EN 50172:2024 + Übergang, EN 50171, VDE 0100-560, MLAR/E30, Prüfpflichten | geplant |
-| 4 | Die CPS 220/64 von außen nach innen | Typen 1–22 kW, Typenschild, Schrankaufbau, Steuerteil, Baugruppenträger, Klemmleisten X1/X2/X3, Unterschiede zur FUSION | geplant |
-| 5 | Baustein 3: Die Batterie | OGi-Blöcke, 216 V, Alterung und 25 % Reserve, Temperatur, Tiefentladeschutz 185 V, Lüftung, BCS | geplant |
-| 6 | Bausteine 1+2: Netz, Ladeteil, Umschaltung | Ladeteile, 12 h/80 %, RIF 5, DPÜ/Stromschleife, Nachlauf, Handrückschaltung, Blockieren | geplant |
-| 7 | Baustein 4: Stromkreismodule und Endstromkreise | CP 4x2A/2x4A/1x6A (FUSION: CF …), Sicherungen, LEDs, 20 Leuchten/60 %, Joker-Mischbetrieb, 24-V- und D.E.R.-Technik | geplant |
-| 8 | Leuchten und Betriebsgeräte | Rettungszeichen vs. Sicherheitsleuchte, Joker-EVG/J-SV-Modul (Mikro- und Adressschalter), FUSION-Geräte, Überwachungsarten, dynamische Leuchten | geplant |
-| 9 | Erweiterungen und Busse | IB1/IB2/IB3, RTG, Unterstation CPUS vs. BUS-Unterstation CPUSB, LSA, MTB, Leitungslängen, Funktionserhalt | geplant |
-| 10 | Bedienung und Software | Display, Statusfarben, Menü, Prüfbuch, Konfigurator, INOWeb, INOView, Gebäudeleittechnik | geplant |
-| 11 | Prüfen und Warten in der Praxis | täglich bis 3-jährlich, Funktions- und Betriebsdauertest, Isolationsmessung, Batterieinspektion, Ein-/Ausschaltreihenfolge | geplant |
-| 12 | Fehlersuche mit System | typische Meldungen, Denkweise, Fallbeispiele | geplant |
-| 13 | Transfer | jede Anlage in 10 Minuten verstehen, die 5 Bausteine bei anderen Herstellern, Abschlussquiz | geplant |
+| 3 | Recht und Normen kompakt | Wer verlangt was (Baurecht, Arbeitsschutz, Sonderbauten), EN 1838:2025 (neu: 1 lx flächig), EN 50172:2024 + Übergang bis 27.05.2027, EN 50171, VDE 0100-560-1 (20 Leuchten/60 %, 2 Kreise je Brandabschnitt), MLAR/E30, Prüfpflichten, Verantwortung, Qualifikation | geplant |
+| 4 | Die Anlage lesen: CPS 220/64 von außen nach innen | Typenschild entschlüsseln, Schrankaufbau, Steuerteil, Baugruppenträger, Klemmleisten X1/X2/X3, Betriebsmittelkennzeichen (F, X, A, K, G/T), Schaltplan aus der Türtasche lesen, Unterschiede zur FUSION; Transfer-Ecke: Gessler SiBELON | geplant |
+| 5 | Die Batterie in der Praxis | Bauarten (OGi, Vlies/AGM), Alterung und 25 % Reserve, Temperatur, Tiefentladeschutz, Einzelblocküberwachung (BCS), Batterieinspektion und Protokoll, Batterietausch, Lüftung/Wasserstoff, Aufstellraum | geplant |
+| 6 | Netz, Laden, Umschalten | Ladeteile und IU-Laden, 12 h/80 %, Netzüberwachung HV und UV (RIF 5, DPÜ, Stromschleife, Fail-safe), Nachlauf, Handrückschaltung, Blockieren, Fernschalter, **24-V-Hilfsversorgung** | geplant |
+| 7 | Stromkreise | CP 4x2A/2x4A/1x6A (FUSION: CF …), Sicherungen, LEDs, 20 Leuchten/60 %, Einschaltstrom, Joker-Mischbetrieb in der Praxis, Lichtschalterabfrage (LSA), Brandabschnitte, Isolationsmessung Schritt für Schritt | geplant |
+| 8 | Leuchten und Betriebsgeräte | Rettungszeichen vs. Sicherheitsleuchte, Erkennungsweite und Montagehöhe, Joker-EVG/J-SV-Modul (Mikro- und Adressschalter), Überwachungsarten, Leuchtentausch und neu einlernen, LED-Fehlerbilder, dynamische Leuchten | geplant |
+| 9 | Erweiterungen und Busse | IB1/IB2/IB3, RTG, Unterstation CPUS vs. BUS-Unterstation CPUSB, MTB, Leitungslängen, Funktionserhalt E30, was bei Busausfall passiert | geplant |
+| 10 | Bedienung und Software | Display-Menü, Statusfarben, Prüfbuch lesen, Tests starten, richtig blockieren, Konfigurator, INOWeb/INOView, Gebäudeleittechnik | geplant |
+| 11 | Prüfen und Warten in der Praxis | Ein kompletter Wartungsbesuch als Geschichte: Ankommen, Sichtprüfung, Prüfbuch, Funktions-/Betriebsdauertest, Batterie, Messungen, Dokumentation, Übergabe an den Betreiber; alle Intervalle | geplant |
+| 12 | Fehlersuche mit System | Methode Symptom → Baustein → Messung; Fälle: Leuchtenstörung, Netzausfall UV ohne Grund, Isolationsfehler, Busstörung, Tiefentladung, 24-V-Netzteil defekt | geplant |
+| 13 | Transfer und Abschluss | Jede Anlage in 10 Minuten verstehen: die 5 Bausteine bei INOTEC, Gessler SiBELON und anderen Herstellern; Abschlussquiz über die ganze Reihe | geplant |
+
+Jede Folge ab Folge 3 hat zusätzlich eine kurze **Transfer-Ecke**: Wie sieht das bei anderen Herstellern aus (z. B. Gessler SiBELON)?
+
+**Rhythmus:** eine Folge pro Abend (ca. 20 Uhr). Feedback und Fragen aus dem Chat landen in [`FEEDBACK.md`](FEEDBACK.md) und fließen in die jeweils nächste Folge ein.
 
 ## Wie die Reihe aufgebaut ist (Didaktik)
 

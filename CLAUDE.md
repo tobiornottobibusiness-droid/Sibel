@@ -8,19 +8,21 @@ Dieses Repo enthält eine Audio-Lernreihe (Deutsch) über Sicherheitsbeleuchtung
 - Hört beim Autofahren. Mag den Aufbau, die Stimmen und das Tempo `+15%`.
 
 ## Abendlicher Ablauf (eine Folge pro Abend)
+0. `FEEDBACK.md` lesen und offene Punkte, die zur heutigen Folge passen, einbauen. Danach dort als ✅ markieren.
 1. In `README.md` die erste Folge mit Status „geplant“ suchen. **Nur diese eine Folge** produzieren.
 2. Fakten aus `wissensbasis/` nehmen. Nur bei Lücken gezielt recherchieren (Primärquellen: INOTEC-Handbücher, siehe `wissensbasis/quellen.md`). Neue Fakten mit Quelle in die Wissensbasis eintragen. Nichts erfinden. Wenn Quellen sich widersprechen, das sagen.
 3. `folgen/folge-NN-<kurzname>/skript.md` schreiben, im Stil der vorherigen Folgen:
    - Dialog SABINE (Expertin) / TIM (Elektrofachkraft, Einsteiger in der Sicherheitsbeleuchtung), ca. 3.300–3.800 Wörter (≈ 25–28 min).
    - Kapitel (`## …`): Rückblick mit 3 Abruffragen zur Vorfolge und `[PAUSE 6–8]` → Inhalt in 4–7 Kapiteln → „Wiederholung mit Denkpausen“ (6–7 Fragen) → „Praxisauftrag und Ausblick“.
    - Analogien, „Warum?“-Fragen von Tim, Tim fasst in eigenen Worten zusammen, Sicherheitshinweise konkret.
+   - Kurze **Transfer-Ecke** pro Folge: Wie sieht das Thema bei anderen Herstellern aus (z. B. Gessler SiBELON, siehe `wissensbasis/05-praxisbeispiel-gessler-sibelon.md`)? Nur Belegtes, sonst als Frage an den Hörer formulieren.
    - **Alle Zahlen ausschreiben.** Keine Ziffern, kein %, °, /, lx, kW, Ah, mm im Sprechtext.
    - Aussprache: Kürzel mit Bindestrich („C-P-S“, „D-P-Ü“, „B-C-S“, „P-E“, „I-T-System“). Nicht „Perfekt“ (wird englisch gesprochen), sondern „Klasse“ / „Sehr gut“. „Ampere-Stunde“ mit Bindestrich. Bei Sabine nicht „Zweitens:“ am Satzanfang, sondern „Als Zweites:“. „einhundertacht“ statt „hundertacht“. Zahlen nicht als kurzes Satzfragment an den Satzanfang stellen (vor allem bei Tim), sondern in ganze Sätze einbetten.
 4. `begleitheft.md` schreiben: Lernziele, Spickzettel mit Ziffern/Tabellen, Selbsttest mit aufklappbaren Antworten, Praxisauftrag.
 5. Audio erzeugen: `pip install -r tools/requirements.txt` (falls nötig), dann `python3 tools/make_episode.py --check …/skript.md` und `python3 tools/make_episode.py …/skript.md`.
 6. Gegenhören: `pip install faster-whisper`, dann `python3 tools/check_audio.py …/folge-NN-….mp3 > /tmp/transkript.txt` und das Transkript auf verstümmelte oder englisch gesprochene Wörter prüfen. Betroffene Zeilen umformulieren und neu erzeugen (der Cache macht das schnell).
 7. In `README.md` den Status auf „✅ fertig“ setzen. Committen und auf `claude/sicherheitsbeleuchtung-grundlagen-p0h5d1` pushen.
-8. MP3 und Begleitheft per SendUserFile an den Nutzer schicken. Kurze Nachricht dazu: Thema, Länge, Kernpunkte.
+8. MP3 und Begleitheft per SendUserFile an den Nutzer schicken. Kurze Nachricht dazu: Thema, Länge, Kernpunkte. Am Ende kurz einladen, Fragen und Feedback für die nächste Folge zu schicken.
 9. Sind alle Folgen des Staffelplans fertig, die abendliche Routine deaktivieren und dem Nutzer Bescheid geben.
 
 ## Sicherheit
