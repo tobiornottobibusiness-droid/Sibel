@@ -51,3 +51,22 @@
 | **Stromschleife (SL)** | 24-V-Ruhestromschleife zu den DPÜs. Wird sie unterbrochen, geht das Licht an. |
 | **Tiefentladeschutz** | Trennt die Last von der Batterie, bevor sie zu tief entladen und beschädigt wird (Test bis 185 V). |
 | **Umschaltzeit / Aktivierungszeit** | Zeit vom Netzausfall bis zum Erreichen der geforderten Beleuchtungsstärke. |
+
+## Betriebsmittelkennzeichen (Schaltplan lesen, Folge 4)
+
+Vorzeichen (DIN EN 81346-1, früher DIN 40719): **`=`** Anlage/Funktion, **`+`** Ort, **`-`** Betriebsmittel (Produkt). Das Minus vor `-F101` ist also kein Minuspol.
+
+Gebräuchliche Kennbuchstaben. **Achtung:** Die Normausgaben (DIN 40719, EN 81346-2:2009, IEC 81346-2:2019) haben einzelne Buchstaben unterschiedlich belegt. Verbindlich ist die Legende im jeweiligen Plan.
+| Buchstabe | Bedeutung | Beispiele aus der Praxis |
+|---|---|---|
+| **F** | Schutzeinrichtung (Sicherung, Leitungsschutz) | INOTEC Modulsicherungen; Gessler -2F1 Netz, -2F4/-2F5 Batterie; Kaufel -F101…-F103 Netz, -F111/-F112 Batterie |
+| **X** | Klemme, Steckverbinder | INOTEC X1 Netz, X2 Bus, X3 Endstromkreise; Gessler -2X1 |
+| **A** | Baugruppe, Modul | Kaufel -A101 = Unterstation US 10; Gessler 2A10, 2A11 (E/A-Module) |
+| **K** | Relais, Überwachungsrelais (ältere Pläne auch Schütze) | -K03 … „Spannungsüberwachung“ in einer Unterverteilung |
+| **Q** | Leistungs-/Lasttrennschalter (neuere Pläne auch Schütze) | |
+| **G** | Energiequelle (Batterie; je nach Plan auch Netzteil/Ladegerät) | |
+| **T** | Transformator, Umformer (je nach Plan auch Netzteil) | Ladetransformatoren |
+
+Nummern-Logik: Gleiche Zählnummer heißt oft „gehört zusammen“ (Kaufel: -A101 Unterstation ↔ -F101 ihre AC-Sicherung). Unterverteilungs-Legenden zählen oft je Vorsicherung: `41F3` = dritter Abgang hinter Vorsicherung `F41`.
+
+**UC** (Universal Current, Allstrom): Eingang für Wechsel- **und** Gleichspannung, z. B. an der Kaufel-Unterstation: AC aus der CPS im Netzbetrieb, DC im Batteriebetrieb. Beim Messen AC **und** DC prüfen.
