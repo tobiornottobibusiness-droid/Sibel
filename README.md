@@ -8,7 +8,7 @@ Eine Lernreihe zum Hören (z. B. beim Autofahren), mit Begleitheften zum Nachles
 
 | Ordner | Inhalt |
 |--------|--------|
-| [`wissensbasis/`](wissensbasis/) | Recherchiertes Fachwissen: [Anlage CPS 220/64](wissensbasis/04-cps-220-64.md), [Anlage CPS FUSION](wissensbasis/01-cps-fusion-anlage.md), [Normen & Regeln (Stand 10/2026)](wissensbasis/02-normen-und-regeln.md), [Glossar](wissensbasis/03-glossar.md), [Quellen](wissensbasis/quellen.md) |
+| [`wissensbasis/`](wissensbasis/) | Recherchiertes Fachwissen: [Anlage CPS 220/64](wissensbasis/04-cps-220-64.md), [Anlage CPS FUSION](wissensbasis/01-cps-fusion-anlage.md), [Normen & Regeln (Stand 10/2026)](wissensbasis/02-normen-und-regeln.md), [Glossar](wissensbasis/03-glossar.md), Praxisbeispiele [Gessler SiBELON](wissensbasis/05-praxisbeispiel-gessler-sibelon.md) und [Kaufel viaFlex](wissensbasis/06-praxisbeispiel-kaufel-viaflex.md), [Quellen](wissensbasis/quellen.md) |
 | [`folgen/`](folgen/) | Je Folge: `…mp3` (Audio), `begleitheft.md` (Spickzettel, Selbsttest, Praxisauftrag), `skript.md` (wörtliches Skript), `kapitel.txt` (Kapitelmarken) |
 | [`tools/`](tools/) | `make_episode.py`: erzeugt aus einem Skript die MP3 (zwei Stimmen, Denkpausen, Kapitel-Gong) |
 

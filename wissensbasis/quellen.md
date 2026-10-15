@@ -23,5 +23,9 @@
 - Zumtobel, Batteriemerkblatt. https://www.zumtobel.com/PDB/resources/manual/Batteriemerkblatt%20Zumtobel%20de.pdf
 - IEC/TS 60479-1:2005 (Zusammenfassung bei EVS): Wirkungen von Gleichstrom auf den Menschen. https://www.evs.ee/en/iec-ts-60479-1-2005-et
 
+## Andere Hersteller (Transfer)
+- ABB: *viaFlex Betriebsanleitung* 490.01.DE.04 (07/2021), 59 S., gelesen über ManualsLib. https://www.manualslib.de/manual/812978/Abb-Viaflex.html (ältere Ausgabe 490.01.DE.02, 02/2017: https://www.manualslib.de/manual/1106860/Abb-Viaflex.html)
+- ABB: Produktseite viaFlex (Nachfolger von Sentara). https://new.abb.com/low-voltage/products/lighting-emergency-lighting/emergency-lighting/vanlien/products/centralised-power-systems/viaflex
+
 ## Hinweis
 Normtexte selbst sind kostenpflichtig und wurden nicht im Volltext eingesehen. Die Normenangaben stützen sich auf die oben genannten Hersteller- und Fachquellen. Wenn Quellen sich widersprechen, ist das in der Wissensbasis vermerkt.
