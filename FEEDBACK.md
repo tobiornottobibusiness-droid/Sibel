@@ -4,6 +4,7 @@ Wird vor jeder abendlichen Produktion gelesen. Neueste Einträge oben. Erledigte
 
 ## 15.10.2026
 - Frage aus der Praxis: An einer **ABB Kaufel viaFlex CPS** (Baujahr 2017, 108 × 2 V OPzS 1200, 3 h) soll eine **Unterstation getauscht** werden. Wie macht man sie spannungsfrei, reicht „Stromkreis blockieren“? → im Chat beantwortet (Blockieren ist keine Freischaltung; zwei Einspeisungen: 2-polige Strangsicherung aus der CPS **und** AV-Einspeisung; Tauschablauf in viaFlex PRO). Fakten in `wissensbasis/06-praxisbeispiel-kaufel-viaflex.md`. → In **Folge 9** (Unterstationen) als Transfer-Ecke, in **Folge 11** (Wartung) als Ablauf „Unterstation tauschen“ und in **Folge 13** aufgreifen. Kaufel viaFlex als dritten Hersteller in die Transfer-Ecken aufnehmen.
+- Vor Ort an der viaFlex (Software 1.6.0, Bus = **LON**): Meldung „LON Status: Timeout bei einer US-Nachricht“, 145 Meldungen. Im Assistenten „Leuchten / FLX ändern“ (US 10) bricht die Suche ab (roter Blitz bei „Leuchten / FLX werden gesucht“), Reiter 2 bleibt gesperrt. Lernpunkt: falscher Assistent (der ist für den Leuchtentausch, nicht für den US-Tausch), und die Suche läuft über die US, also scheitert sie, wenn die US nicht antwortet. → Echter Fall für **Folge 12** (Busstörung) und **Folge 9** (LON-Bus bei viaFlex).
 
 ## 14.10.2026
 - Tempo: ca. 1,2-fach ist gut (`+15%`). Stimmen und Aufbau passen. ✅ ab Folge 1 (neu) / 2
