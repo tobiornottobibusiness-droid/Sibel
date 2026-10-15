@@ -19,7 +19,7 @@ Eine Lernreihe zum Hören (z. B. beim Autofahren), mit Begleitheften zum Nachles
 | 1 | **Das große Bild** | Wozu Sicherheitsbeleuchtung, Begriffsbaum, 1 lx/0,5 lx/15 lx, Umschaltzeit und Nennbetriebsdauer, Schaltungsarten, Netzausfall HV vs. UV, EB/LPS/CPS, **die 5 Bausteine** | ✅ fertig |
 | 2 | **Gleichstrom für Wechselstrom-Profis** | Warum LED-Geräte DC vertragen, Batterie-Spannungen pro Zelle (≈ 245 V statt 216 V), Ah/Wh und Entladezeit, Überschlag, **die 6 Gleichstrom-Regeln** (Lichtbogen, Batterie, N im Notbetrieb, Freischalten, Körperwirkung, Polarität), I-T-Prinzip, Messen an DC, Schaltreihenfolge | ✅ fertig |
 | 3 | **Recht und Normen kompakt** | Wer verlangt was (Baurecht, Arbeitsschutz, Sonderbauten), EN 1838:2025 (neu: 1 lx flächig), EN 50172:2024 + Übergang bis 27.05.2027, EN 50171, VDE 0100-560-1 (20 Leuchten/60 %, 2 Kreise je Brandabschnitt), MLAR/E30, Prüfpflichten, Verantwortung, Qualifikation | ✅ fertig |
-| 4 | Die Anlage lesen: CPS 220/64 von außen nach innen | Typenschild entschlüsseln, Schrankaufbau, Steuerteil, Baugruppenträger, Klemmleisten X1/X2/X3, Betriebsmittelkennzeichen (F, X, A, K, G/T), Schaltplan aus der Türtasche lesen, Unterschiede zur FUSION; Transfer-Ecke: Gessler SiBELON | geplant |
+| 4 | **Die Anlage lesen: CPS 220/64 von außen nach innen** | Typenschild entschlüsseln und prüfen, Typenbezeichnung, Schrankaufbau, Baugruppenträger, Klemmleisten X1/X2/X3 (+X4/X5/X8), Betriebsmittelkennzeichen (=, +, −; F, X, A, K, Q, G, T), Plan lesen, Methode „vom Verbraucher zur Quelle“; Praxisfall Kaufel-Unterstation; Transfer-Ecke: Gessler SiBELON und Kaufel viaFlex | ✅ fertig |
 | 5 | Die Batterie in der Praxis | Bauarten (OGi, Vlies/AGM), Alterung und 25 % Reserve, Temperatur, Tiefentladeschutz, Einzelblocküberwachung (BCS), Batterieinspektion und Protokoll, Batterietausch, Lüftung/Wasserstoff, Aufstellraum | geplant |
 | 6 | Netz, Laden, Umschalten | Ladeteile und IU-Laden, 12 h/80 %, Netzüberwachung HV und UV (RIF 5, DPÜ, Stromschleife, Fail-safe), Nachlauf, Handrückschaltung, Blockieren, Fernschalter, **24-V-Hilfsversorgung** | geplant |
 | 7 | Stromkreise | CP 4x2A/2x4A/1x6A (FUSION: CF …), Sicherungen, LEDs, 20 Leuchten/60 %, Einschaltstrom, Joker-Mischbetrieb in der Praxis, Lichtschalterabfrage (LSA), Brandabschnitte, Isolationsmessung Schritt für Schritt | geplant |
@@ -66,6 +66,7 @@ python3 tools/make_episode.py folgen/folge-01-das-grosse-bild/skript.md         
   - „Amperestunde“ → „Ampere-Stunde“ schreiben.
   - „Zweitens:“ am Satzanfang (Sabine) klingt verwaschen. Besser „Als Zweites:“.
   - „einhundertacht“ statt „hundertacht“ schreiben. Zahlen nicht als kurzes Satzfragment an den Satzanfang stellen.
+  - Betriebsmittelkennzeichen Ziffer für Ziffer schreiben („F eins null eins“), „einhunderteins“ klingt wie „Heinz“. „Kaufel Via-Flex“ besser umschreiben („ein System von Kaufel“).
 
 ## Wichtiger Hinweis
 
