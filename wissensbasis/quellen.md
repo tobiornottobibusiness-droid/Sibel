@@ -29,3 +29,10 @@
 
 ## Hinweis
 Normtexte selbst sind kostenpflichtig und wurden nicht im Volltext eingesehen. Die Normenangaben stützen sich auf die oben genannten Hersteller- und Fachquellen. Wenn Quellen sich widersprechen, ist das in der Wissensbasis vermerkt.
+
+## Batterie in der Praxis (Folge 5)
+- Discover Battery: *Why does temperature affect a battery's available capacity?* (Arrhenius, halbe Lebensdauer je 10 °C). https://discoverbattery.com/support/learning-center/battery-101/why-does-temperature-affect-a-batterys-available-capacity
+- TAB: Datenblatt OPzS-Zelle (Säuredichte 1,24 ± 0,01 kg/l bei 20 °C). https://res.cloudinary.com/anda-olsen/image/upload/v1679064938/p_OPZS6V200_datablad_1
+- EnerSys/Hawker: Gebrauchsanweisung Water Less (Nachfüllen mit gereinigtem Wasser). https://enersys.com/4acc7e/globalassets/documents/product-documentation/hawker/water-less/emea/de-bt-h-wl-iu-002-09.2020.pdf
+- Wattuneed: OPzS/OPzV-Übersicht (DIN 40736, Nachfüllen, Lüftung). https://www.wattuneed.com/en/24-opzv-and-opzs-batteries
+- INOTEC Handbuch 2025 (siehe oben): Lüftung nach DIN EN IEC 62485-2, Fragenkatalog Nr. 24–27.

@@ -352,3 +352,43 @@ Laut INOTEC-Handbuch der CPS FUSION (orientiert an DIN VDE V 0108-100-1 / EN 501
 | Tiefentladeschutz (rot) | Batterie nach langem Netzausfall leer, z. B. weil Notlicht nicht blockiert war | Ursache klären, quittieren, Batterie laden, später Kapazität prüfen |
 | BCS: Ladung abgeschaltet | einzelner Block mit Unter-/Überspannung oder Übertemperatur | BCS-Prüfbuch und Sensor-LEDs prüfen, Block tauschen, Ladung manuell einschalten |
 | Gerät blockiert (grau/rot) | Blockierung am Steuerteil, Fernschalter oder MTB-Schlüssel | Freigeben dort, wo blockiert wurde |
+
+### 6.6 Batterie in der Praxis (Ergänzung für Folge 5)
+Quellen: Zumtobel-Gebrauchsanweisung verschlossene Bleibatterien (04/10), Banner StandBy Bull (12/21), INOTEC Handbuch 2025 (Lüftung, Fragenkatalog 24–27), MAN 708199 (Kap. 3.2, 4, 6.2), Discover Battery (Temperatur), TAB-Datenblatt OPzS, Hawker-Gebrauchsanweisung (Nachfüllen).
+
+**Bauarten**
+- Nur **ortsfeste Bleibatterien** (EN 60896-11/-21/-22), Gebrauchsdauer ≥ 10 Jahre bei 20 °C, **keine Kfz-Starterbatterien** (MAN 708199).
+- **Verschlossen** (OGi-Blöcke, Elektrolyt im Vlies oder als Gel): wartungsfrei, **kein Wasser nachfüllen**, Überdruckventile **nicht öffnen** (zerstört die Batterie). Trotzdem regelmäßige Inspektion nötig (Zumtobel).
+- **Geschlossen** (z. B. **OPzS**, Röhrchen-/Panzerplatten, flüssiger Elektrolyt, DIN 40736): regelmäßig **destilliertes/gereinigtes Wasser nachfüllen**, Raum muss belüftet sein. Säuredichte nach Herstellerangabe, z. B. 1,24 ± 0,01 kg/l bei 20 °C (TAB-Datenblatt OPzS). **OPzV** = Panzerplatten mit Gel, verschlossen, wartungsfrei.
+- Bei geschlossenen Batterien im Schrank: innen ein Schild „säurehaltig/alkalisch + Erste Hilfe bei Elektrolytkontakt“, außen ein Schild „Explosionsgefahr, keine offenen Flammen“ (MAN 708199).
+
+**Temperatur**
+- Ideal 20 °C (Zumtobel), 20 °C ± 5 °C (Banner). Wärmer verkürzt die Lebensdauer, kälter verringert die verfügbare Kapazität.
+- Faustregel (Arrhenius, Herstellerangabe Discover Battery): **je 10 °C mehr etwa halbe Lebensdauer** (Beispiel: 15 Jahre bei 20 °C → 7,5 Jahre bei 30 °C).
+- Dauertemperaturen > 45 °C vermeiden, 55 °C Grenze (Banner). Temperaturunterschiede zwischen Blöcken: > 3 °C durch Aufstellung vermeiden, Abstand ≥ 0,5 cm (Zumtobel); > 5 °C Abweichung → Kundendienst (Banner).
+- **Temperaturkompensation der Ladespannung: Quellen unterscheiden sich.** Zumtobel: ± 3 mV/Zelle je K Abweichung von 20 °C (z. B. 30 °C → 2,27 V/Zelle). Banner: −5 mV/Zelle je °C, aber erst außerhalb 15–25 °C nötig.
+
+**Laden, Entladen, Lagern**
+- Erhaltungsladung 2,27–2,30 V/Zelle; volle Kapazität neuer Batterien erst nach **4–5 Wochen** Erhaltungsladung (Banner).
+- **Nach Entladungen, auch Teilentladungen, sofort laden, spätestens nach 24 h** (Banner).
+- Richtwerte Entladeschlussspannung (Zumtobel): > 3 h **1,80 V/Zelle**, 1–3 h **1,75 V/Zelle**, 20 min–1 h 1,67 V/Zelle, < 20 min 1,60 V/Zelle. → CPS 220/64 194 V (1,80), FUSION 185 V (1,71), Gessler 189 V nach 1 h (1,75).
+- Lagerung: frostfrei, trocken, sauber; ohne Erhaltungsladung alle 3 Monate Ausgleichsladung (Zumtobel). INOTEC: max. **3 Monate ohne Ladung**; bei längerer Netzunterbrechung **Batteriesicherungen ziehen**; vor der ersten Funktionsprüfung mindestens 24 h laden. Entladene Batterien können einfrieren (Banner).
+- Ruhespannung vor dem Einbau (20 °C): 2-V-Zelle ≥ 2,10 V, 12-V-Block ≥ 12,60 V, sonst nachladen (Banner).
+
+**Inspektion und Protokoll (Zumtobel 7.2, Banner 5/6)**
+- **Alle 6 Monate:** Sichtprüfung (Sauberkeit, Beschädigung, lose Kontakte), Erhaltungsladespannung gesamt und je Block, Oberflächentemperatur der Blöcke, Raumtemperatur.
+- **Mindestens alle 12 Monate:** zusätzlich alle Anschlüsse mit Drehmomentschlüssel nachziehen und **Blockspannungen während der Entladung** (Betriebsdauertest) aufzeichnen. Das ist die **Garantiegrundlage** (Zumtobel verlangt für Reklamationen die zwei letzten Wartungsberichte).
+- Blockspannung bei 2,27 V/Zelle (Banner): 12-V-Block 13,20–13,92 V (erste 6 Monate), danach 13,32–13,80 V.
+- Anzugsdrehmomente Insertschraubpole (Banner): M5 5 Nm, M6 7 Nm, M8 10 Nm (± 10 %). Immer die Angabe des jeweiligen Batterieherstellers nehmen.
+- Reinigen nur mit Wasser ohne Zusatz (Kunststoffteile), sauber und trocken halten gegen Kriechströme.
+
+**Sicherheit**
+- Schutzbrille und Schutzkleidung (EN 50272-2/62485-2), keine Werkzeuge oder Gegenstände auf die Batterie legen, Pole stehen immer unter Spannung, Kurzschlüsse vermeiden, kein Feuer/Funken. Schwefelsäure ätzend: Augen/Haut sofort mit viel Wasser spülen, Arzt. Blöcke sind schwer: Transportvorrichtung. Altbatterien ins Recycling (Zumtobel).
+- Batterie anschließen (MAN 708199): Lieferung prüfen, **isoliertes Werkzeug**, Drehmoment des Batterieherstellers, **Batteriesicherungen vorher entfernen**, Blöcke mit Polverbindern verschalten, **Schutzkappen auf die Pole**, bei BCS die Adapter unter die Polverbinder, Batteriesicherungen erst nach Abschluss der Installation einsetzen, auf Polung achten.
+
+**Aufstellraum und Lüftung (INOTEC Handbuch 2025, nach DIN EN IEC 62485-2)**
+- Schutzziel H₂ < 4 Vol.-%; dann gilt der Raum nicht als explosionsgefährdet (Abs. 7.2).
+- Q = 0,05 · n · I<sub>gas</sub> · C<sub>N</sub> · 10⁻³ m³/h mit **I<sub>gas</sub> = 1 mA/Ah bei Erhaltungsladung, 8 bei Starkladung**; für Sicherheitsbeleuchtung ist laut Anhang A.3 I<sub>gas</sub> = 1 anzusetzen. A = 28 · Q cm² je Zu- und Abluftöffnung.
+- Beispiel 216 V/70 Ah: Q = 0,378 m³/h. Eine dichtschließende Rauchschutztür hat bis 9 m³/h Leckrate (DIN 18095-1), also das 23-Fache.
+- Fragenkatalog 24: verschlossene 216 V/100 Ah → Öffnungen je ca. **16 cm²**, geschlossene gleicher Kapazität → mind. **76 cm²**.
+- Boden: auf Gewicht ausgelegt; bei geschlossenen Batterien elektrolytbeständig oder Auffangwanne; in Armreichweite ableitfähig < 10 MΩ (oder Gummimatte); > 120 V DC Zugang eingeschränkt (Verriegelung); abschließbare Anti-Panik-Tür nach außen.
