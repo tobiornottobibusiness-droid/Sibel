@@ -22,7 +22,7 @@ SABINE: Sehr gut. Frage drei. Warum misst du an einem U-C-Eingang Wechsel- und G
 TIM: Weil dort im Netzbetrieb Wechselspannung anliegt und im Notbetrieb Gleichspannung. Wenn ich nur eine Messart wähle, zeigt das Messgerät vielleicht null Volt, obwohl Spannung da ist.
 SABINE: Genau. Heute geht es um das Herz der Anlage, die Batterie. In Folge zwei hast du gelernt, wie sie elektrisch funktioniert. Heute geht es um die Praxis. Welche Bauarten gibt es, wie altert eine Batterie, was macht ihr die Wärme, was ist die größte Gefahr für sie, wie prüfst du sie, wie tauschst du sie, und was muss der Raum können, in dem sie steht.
 TIM: Dann bin ich gespannt. Bei der Batterie habe ich ehrlich gesagt den meisten Respekt.
-SABINE: Und das ist gut so. Deshalb fangen wir mit den Sicherheitsregeln an, bevor wir überhaupt etwas anfassen. Die Batterie liefert zweihundertsechzehn Volt Gleichspannung, und die kannst du nicht abschalten. Die Pole stehen immer unter Spannung. Gearbeitet wird nur nach der Betriebsanweisung deines Betriebs und nach den Anleitungen von Anlagen- und Batteriehersteller. Du trägst Schutzbrille und Schutzkleidung, nimmst isoliertes Werkzeug, legst nie Werkzeug oder andere Gegenstände auf die Batterie, und Schmuck wie Ringe legst du vorher ab.
+SABINE: Und das ist gut so. Deshalb fangen wir mit den Sicherheitsregeln an, bevor wir überhaupt etwas anfassen. Die Batterie liefert zweihundertsechzehn Volt Gleichspannung, und die kannst du nicht abschalten. Die Pole stehen immer unter Spannung. Du arbeitest nur nach der Betriebsanweisung deines Betriebs und nach den Anleitungen von Anlagen- und Batteriehersteller. Du trägst Schutzbrille und Schutzkleidung, nimmst isoliertes Werkzeug, legst nie Werkzeug oder andere Gegenstände auf die Batterie, und Schmuck wie Ringe legst du vorher ab.
 
 ## Bauarten: verschlossen oder geschlossen
 
@@ -35,7 +35,7 @@ TIM: Und die sind wartungsfrei?
 SABINE: In dem Sinn, dass du kein Wasser nachfüllst. Das ist bei verschlossenen Batterien sogar verboten. Oben sitzen Überdruckventile. Wer die öffnet, zerstört die Batterie. Wartungsfrei heißt aber nicht prüfungsfrei. Inspizieren musst du sie trotzdem regelmäßig, dazu kommen wir gleich.
 TIM: Und die zweite Familie?
 SABINE: Das sind die geschlossenen Batterien. Dort schwimmt die Säure flüssig in der Zelle. Ein typischer Vertreter heißt O-P-Z-S, das sind Einzelzellen mit zwei Volt und sogenannten Panzerplatten. Diese Batterien brauchen regelmäßig destilliertes oder gereinigtes Wasser, und die Säuredichte wird gemessen. Welcher Wert richtig ist, steht beim Hersteller. Ein O-P-Z-S-Datenblatt nennt zum Beispiel eins Komma zwei vier Kilogramm pro Liter bei zwanzig Grad.
-TIM: O-P-Z-S, das stand doch auf dem Typenschild meiner Kaufel-Anlage.
+TIM: O-P-Z-S, genau das stand bei der Anlage von Kaufel auf dem Typenschild.
 SABINE: Richtig, darauf kommen wir in der Transfer-Ecke zurück. Es gibt übrigens auch Panzerplatten mit Gel, die heißen dann O-P-Z-V und sind wieder verschlossen. Und eine Regel aus der INOTEC-Anleitung: Stehen geschlossene Batterien in einem Schrank, muss innen ein Schild sagen, dass die Batterie säurehaltig ist und was bei Kontakt mit der Säure zu tun ist. Außen muss ein Schild vor Explosionsgefahr durch offene Flammen warnen.
 TIM: Ich fasse zusammen. Verschlossen heißt Vlies oder Gel, kein Wasser, Ventile nicht anfassen. Geschlossen heißt flüssige Säure, Wasser nachfüllen und Säuredichte messen. Und eine Starterbatterie hat in der Anlage nichts verloren.
 SABINE: Klasse.
@@ -106,7 +106,7 @@ SABINE: Klasse, genau so.
 TIM: Und wenn getauscht werden muss?
 SABINE: Dann gehst du nach der Anleitung vor. Bei INOTEC heißt das: Lieferung auf Vollständigkeit und Schäden prüfen. Anlage blockieren, Batteriesicherungen ziehen. Mit isoliertem Werkzeug arbeiten und die Drehmomente des Batterieherstellers einhalten. Die Blöcke polrichtig mit den Polverbindern verschalten und die Schutzkappen auf die Pole setzen. Gibt es ein B-C-S, kommen die Adapter der Sensoren unter die Polverbinder. Erst wenn alles fertig ist, kommen die Batteriesicherungen wieder rein, und vorher prüfst du die Polung.
 TIM: Kann ich die neue Batterie gleich testen?
-SABINE: Vor der ersten Funktionsprüfung lädst du mindestens vierundzwanzig Stunden. Und ein Batteriehersteller schreibt: Die volle Kapazität erreicht eine neue Batterie erst nach vier bis fünf Wochen Erhaltungsladung. Einen Betriebsdauertest machst du also nicht am Tag nach dem Tausch, wenn du ein ehrliches Ergebnis willst. Vor dem Einbau kannst du übrigens die Ruhespannung messen. Ein zwölf-Volt-Block sollte mindestens zwölf Komma sechs Volt haben, sonst muss er erst nachgeladen werden.
+SABINE: Vor der ersten Funktionsprüfung wird die Batterie mindestens vierundzwanzig Stunden geladen. Und ein Batteriehersteller schreibt: Die volle Kapazität erreicht eine neue Batterie erst nach vier bis fünf Wochen Erhaltungsladung. Einen Betriebsdauertest machst du also nicht am Tag nach dem Tausch, wenn du ein ehrliches Ergebnis willst. Vor dem Einbau kannst du übrigens die Ruhespannung messen. Ein zwölf-Volt-Block sollte mindestens zwölf Komma sechs Volt haben, sonst muss er erst nachgeladen werden.
 TIM: Und die alten Blöcke?
 SABINE: Die sind schwer und gehören ins Recycling. Und vergiss die Dokumentation nicht. Beim Gessler stand noch die alte Batterie auf dem Typenschild, obwohl längst andere Blöcke verbaut waren.
 
@@ -114,7 +114,7 @@ SABINE: Die sind schwer und gehören ins Recycling. Und vergiss die Dokumentatio
 
 SABINE: Zum Schluss der Raum. Beim Laden entsteht Wasserstoff, vor allem bei der Starkladung. Das Schutzziel ist klar: Die Konzentration muss unter vier Volumenprozent bleiben. Dann gilt der Raum auch nicht als explosionsgefährdet.
 TIM: Und wie viel Lüftung braucht man dafür?
-SABINE: Das rechnet man nach der E-N I-E-C sechsundzwanzig vierhundertfünfundachtzig, Teil zwei. Der nötige Luftstrom hängt von der Zahl der Zellen, der Kapazität und dem Gasungsstrom ab. Für eine verschlossene Batterie mit zweihundertsechzehn Volt und siebzig Ampere-Stunden kommt INOTEC auf null Komma drei acht Kubikmeter pro Stunde.
+SABINE: Das rechnet man nach der Norm E-N sechsundzwanzig vierhundertfünfundachtzig, Teil zwei. Der nötige Luftstrom hängt von der Zahl der Zellen, der Kapazität und dem Gasungsstrom ab. Für eine verschlossene Batterie mit zweihundertsechzehn Volt und siebzig Ampere-Stunden kommt INOTEC auf null Komma drei acht Kubikmeter pro Stunde.
 TIM: Warum ist Wasserstoff eigentlich so gefährlich?
 SABINE: Weil er schon ab etwa vier Prozent in der Luft zündfähig ist, und eine kleine Zündquelle reicht. Wasserstoff ist außerdem viel leichter als Luft und sammelt sich oben unter der Decke. Deshalb liegt die Abluftöffnung in der Regel oben, und die Zuluft kommt möglichst von unten und von der anderen Seite.
 TIM: Und null Komma drei acht Kubikmeter pro Stunde, das klingt nach sehr wenig.
@@ -130,7 +130,7 @@ SABINE: Sehr gut. Und eins noch: Kein Feuer, keine Funken und nicht rauchen in d
 
 SABINE: Schauen wir uns deine beiden anderen Anlagen an. Der Gessler hat achtzehn verschlossene Blöcke mit je zwölf Volt und achtzehn Ampere-Stunden, durchnummeriert von eins bis achtzehn, mit roten Polkappen. Auf dem Display standen zweihundertfünfundvierzig Komma eins Volt und zwanzig Komma sechs Grad.
 TIM: Das sind zwei Komma zwei sieben Volt pro Zelle und fast genau die ideale Temperatur. Und die Batterie ist zweipolig abgesichert, plus und minus.
-SABINE: Klasse. Die Kaufel-Anlage ist eine ganz andere Liga. Laut Typenschild sind es einhundertacht Einzelzellen mit je zwei Volt, Typ O-P-Z-S, zwölfhundert Ampere-Stunden. Das ist eine geschlossene Batterie mit flüssiger Säure. Sie steht auf einem Gestell im eigenen Raum.
+SABINE: Klasse. Die Anlage von Kaufel spielt in einer ganz anderen Liga. Laut Typenschild sind es einhundertacht Einzelzellen mit je zwei Volt, Typ O-P-Z-S, zwölfhundert Ampere-Stunden. Das ist eine geschlossene Batterie mit flüssiger Säure. Sie steht auf einem Gestell im eigenen Raum.
 TIM: Dann gilt dort alles, was wir eben über geschlossene Batterien gesagt haben. Wasser nachfüllen, Säuredichte messen, säurefester Boden oder Wanne und deutlich mehr Lüftung.
 SABINE: Genau. Und allein wegen der Kapazität ist der nötige Luftstrom rund siebzehnmal so groß wie bei der Batterie mit siebzig Ampere-Stunden, dazu gast die geschlossene Bauart noch mehr. Wie die Lüftung dort genau ausgelegt ist, steht in den Planungsunterlagen. Meine Fragen an dich für den nächsten Besuch: Gibt es eine Auffangwanne oder einen säurefesten Boden? Wo sind die Lüftungsöffnungen? Hängen die Warnschilder? Und wann wurde laut Protokoll zuletzt Wasser nachgefüllt?
 
