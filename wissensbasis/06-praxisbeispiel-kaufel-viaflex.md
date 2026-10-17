@@ -52,3 +52,10 @@ Anlage mit **83 Unterstationen und 1.226 Leuchten**, Touch-Software 1.6.0, Bus *
 - **Stromkreislegende der Etagenverteilung:** Abgang „41F3 Sibel …“ = AC-Einspeisung des Unterstations-Verteilers. „F03 … F011 Spannungsüberwachung -K03 … -K011“ = Netzwächter, nicht abschalten (sonst Netzausfall-Meldung, Notlicht ein).
 - **Wieder einschalten:** UC+ / UC− zuerst (alle Leuchten gingen an, US grün), dann -F101. Beim Eindrehen von -F101 kurze Funken (Einschaltstrom).
 - **Anmelden:** Initialize kurz drücken → Funktionen → **Inbetriebnahme** (Inbetriebnahme-Assistent, Reiter 1 „Unterstation suchen“). Gefunden: 84 statt 83 Einträge; die alte US 10 stand mit Zeitstempel 2017 und Status „Übertragungsfehler“, die neue mit dem Datum des Tauschs und „betätigen Weiter“. Nach „Weiter“ liest die Zentrale die Konfiguration **aller** Unterstationen nacheinander ein (Schritt x von 84), etwa eine Minute pro Unterstation.
+
+## Netz und Umschalten bei viaFlex (für Folge 6)
+- Funktion **„BS(M) quittieren“** am Touch (Kap. 4.4 der Anleitung: „Manuelles Quittieren der Bereitschaftsschaltung BS(M)“) = Handrückschaltung. Passt zu betriebsmäßig verdunkelten Räumen (Theater).
+- **„DS(Netz) zentral ein-/ausschalten“** (Kap. 4.5): Dauerschaltung im Netzbetrieb je Unterstation aktivieren oder blockieren (Funktionen → CPS Dauerschaltung), Voraussetzung: virtueller Eingang „DS Tableau schaltbar“ parametriert.
+- Netzüberwachung je Unterstation über Schalteingänge „Netzüberwachung 1–4“ mit Leitungsüberwachung (viaFlex 2NUE oder Widerstände viaFlex MLF); im Unterverteiler sitzt ein Modul **viaFlex NÜV** neben einem **ABB-24-V-Netzteil CP-D 24/0.42** (Foto).
+- In der Etagenverteilung: „F03 … F011 Spannungsüberwachung -K03 … -K011“.
+- Ladeteil laut Typenschild: 220 V / **75 A**.

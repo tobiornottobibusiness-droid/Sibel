@@ -10,7 +10,7 @@ Wird vor jeder abendlichen Produktion gelesen. Neueste Einträge oben. Erledigte
 - Tempo: ca. 1,2-fach ist gut (`+15%`). Stimmen und Aufbau passen. ✅ ab Folge 1 (neu) / 2
 - Referenzanlage im Alltag: **INOTEC CPS 220/64**. Arbeitet aber auch an anderen Herstellern, z. B. **Gessler SiBELON Kombischrank Lean**. → In jeder Folge eine kurze **Transfer-Ecke**. ✅ ab Folge 3 (Typenschild Gessler als Normen-Steckbrief)
 - Ist Elektrofachkraft (Energie- und Gebäudetechnik). Wechselstrom sitzt, Gleichstrom und die Risiken dabei auffrischen. ✅ Folge 2
-- Frage: Wozu gibt es die 24-V-Netzteile (Mean Well) im Schrank, wann laufen sie, welche Fehler können auftreten? → kurz im Chat beantwortet; in **Folge 6** (Hilfsversorgung) und **Folge 12** (Fehlerfall „24-V-Netzteil defekt“) vertiefen.
+- Frage: Wozu gibt es die 24-V-Netzteile (Mean Well) im Schrank, wann laufen sie, welche Fehler können auftreten? → kurz im Chat beantwortet; in **Folge 6** (Hilfsversorgung) und **Folge 12** (Fehlerfall „24-V-Netzteil defekt“) vertiefen. ✅ Folge 6 (eigenes Kapitel: wozu, Batteriespeisung, Fehler, Schnellcheck); Folge 12 noch offen
 - Echte Situation: Anlage mit aktiver **Leuchtenstörung** (Display + rote LED „Systemstörung extern“). → Fallbeispiel für **Folge 12**.
 - Hausaufgabe am Gessler-Schrank: Sicherungen mit Netzüberwachung und das 24-V-Netzteil mit dem Ladeteil verwechselt. → In **Folge 4** das „Schrank lesen“ üben (Kennbuchstaben, Klartextschilder, Typenschilder der Geräte, Schaltplan aus der Türtasche). ✅ Folge 4 (Typenschild je Gerät: Netzteil vs. Ladeteil, Kennbuchstaben, Plan lesen)
 - Wunsch: eine Folge pro Tag, dazwischen Feedback geben. Nutzungslimits im Blick behalten → Abendproduktion schlank halten, nicht mehr als nötig recherchieren.

@@ -52,3 +52,10 @@
 - Die Batterie ist **2-polig abgesichert**, die Endstromkreise ebenfalls. Das ist die DC-Regel aus Folge 2 in echt.
 - „min. Versorgungsspannung 189 V nach 1 h“ = 1,75 V/Zelle. Bei kurzen Entladungen (1 h) darf die Entladeschlussspannung tiefer liegen als bei langen (1,8 V/Zelle bei > 3 h; Zumtobel-Batteriemerkblatt). Das erklärt auch INOTEC CPS 220/64 mit 194 V und FUSION mit 185 V.
 - 1.500 W für 1 h ist genau die Leistungsgrenze, die EN 50171 für LPS nennt. Ob diese Anlage als LPS oder CPS eingestuft ist, steht in den Herstellerunterlagen.
+
+## 24-V-Hilfsversorgung (im Chat beantwortet, Folge 6)
+Quellen: Mean Well DIN-Rail-Übersicht (Conrad, 02/2020), DR-60-24-Daten (Trace-Tec).
+- Die Netzteile „springen nicht an“, sie **laufen immer**. Sie machen aus der Netzspannung 24 V DC für die Elektronik: Steuerung, E/A-Module, Relais, Überwachungsschleifen, Meldekontakte.
+- **Mean Well DR-60** verträgt laut Datenblatt neben 230 V AC auch **124–370 V DC**, kann also direkt aus der Batterie (≈ 189–250 V) weiterlaufen. Ob es so verdrahtet ist, zeigt der Schaltplan (**vermutlich**).
+- Typische Fehler: Netzteil defekt oder Vorsicherung ausgelöst (LED „DC OK“ aus, keine 24 V an +V/−V, Gerät-/Bus-/Systemstörung, viele Anlagen schalten sicherheitshalber alle Leuchten ein) · Kurzschluss/Überlast auf der 24-V-Seite (Netzteil schaltet ab oder taktet, Steuerung startet neu) · Alterung der Kondensatoren (zu niedrige oder schwankende 24 V, sporadische Störungen).
+- Schnellcheck: LED „DC OK“, dann an +V/−V im DC-Bereich messen (≈ 24 V).
