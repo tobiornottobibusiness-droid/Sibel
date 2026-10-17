@@ -27,7 +27,7 @@ TIM: Auf die letzte Frage warte ich schon.
 
 SABINE: Fangen wir mit dem Ladeteil an. Im Auto hält die Lichtmaschine die Batterie voll, während der Motor läuft. In der Anlage macht das das Ladeteil, solange Netz da ist. Bei der C-P-S zweihundertzwanzig Strich vierundsechzig gibt es Ladeteile mit eins Komma zwei, drei oder sieben Ampere. Große Anlagen haben mehrere davon.
 TIM: Und wie lädt so ein Ladeteil? Einfach Spannung drauf?
-SABINE: Fast. Empfohlen ist eine sogenannte I-U-Kennlinie. I steht für Strom, U für Spannung. Nach einer Entladung ist die Batterie hungrig. Dann begrenzt das Ladeteil erst einmal den Strom, damit nichts überlastet wird. Das ist die I-Phase. Wenn die Batterie voller wird, steigt ihre Spannung. Ist die Ladespannung erreicht, hält das Ladeteil die Spannung konstant, und der Strom sinkt von allein. Das ist die U-Phase.
+SABINE: Fast. Empfohlen ist eine sogenannte I-U-Kennlinie. Das I steht für den Strom, das U für die Spannung. Nach einer Entladung ist die Batterie hungrig. Dann begrenzt das Ladeteil erst einmal den Strom, damit nichts überlastet wird. Das ist die Stromphase. Wenn die Batterie voller wird, steigt ihre Spannung. Ist die Ladespannung erreicht, hält das Ladeteil die Spannung konstant, und der Strom sinkt von allein. Das ist die Spannungsphase.
 TIM: Wie beim Tanken. Erst läuft es voll rein, und kurz vor voll schaltet die Zapfpistole auf langsam.
 SABINE: Schönes Bild. Und aus Folge zwei kennst du die zwei Stufen. Nach einer Entladung wird mit Starkladung nachgeladen, mit bis zu zwei Komma vier Volt pro Zelle. Ist der Strom weit genug gesunken, schaltet das Ladeteil auf Erhaltungsladung um, mit ungefähr zwei Komma drei Volt pro Zelle. Wo genau umgeschaltet wird, legen die Batteriehersteller unterschiedlich fest.
 TIM: Darf die Spannung bei der Starkladung so hoch gehen? Die Leuchten hängen doch dran.
@@ -60,14 +60,14 @@ SABINE: Klasse.
 
 ## Netzausfall in der Unterverteilung
 
-TIM: Jetzt die zweite Art. Warum muss die Anlage überhaupt wissen, was in einer Unterverteilung passiert? Die hat doch mit der Sicherheitsbeleuchtung nichts zu tun.
+TIM: Jetzt zur zweiten Art von Netzausfall. Warum muss die Anlage überhaupt wissen, was in einer Unterverteilung passiert? Die hat doch mit der Sicherheitsbeleuchtung nichts zu tun.
 SABINE: Stell dir einen Flur vor. Dort hängen Leuchten in Bereitschaftsschaltung, die sind im Normalbetrieb aus. Jetzt fällt in der Unterverteilung der Allgemeinbeleuchtung ein Automat. Der Flur ist dunkel, aber die Anlage hat noch Netz. Ohne Überwachung bliebe es dunkel. Deshalb verlangt die Errichtungsnorm: Die Allgemeinbeleuchtung des Bereichs wird überwacht, und bei einem örtlichen Ausfall schaltet die Sicherheitsbeleuchtung mindestens dort ein.
 TIM: Und das macht die D-P-Ü.
 SABINE: Genau. Die Dreiphasenüberwachung sitzt in der Unterverteilung der Allgemeinbeleuchtung. Sie schaut auf jede Phase. Fällt eine Phase unter fünfundachtzig Prozent der Nennspannung, öffnet ihr Kontakt. Sie hat für jede Phase eine Leuchtdiode und lässt sich auch einphasig anschließen.
 TIM: Und wie kommt das Signal zur Anlage?
 SABINE: Über die vierundzwanzig-Volt-Stromschleife. Das ist eine Leitung, die vom R-I-F fünf, Klemmen S-L plus und S-L minus, durch alle Unterverteilungen läuft. In jeder Unterverteilung sitzt der Kontakt einer D-P-Ü, und alle sind in Reihe geschaltet. Solange überall Netz ist, ist die Schleife geschlossen. Öffnet irgendwo ein Kontakt, ist die Schleife unterbrochen.
 TIM: Und warum so herum? Man könnte den Kontakt doch auch bei Netzausfall schließen lassen.
-SABINE: Das ist das Fail-safe-Prinzip, und das solltest du dir merken. Die Schleife funktioniert wie eine Kette von Leuten, die sich an den Händen halten. Lässt irgendwer los, egal warum, geht das Licht an. Ob eine Phase fehlt, ein Draht abgerissen ist oder eine D-P-Ü kaputt ist: Jede Unterbrechung schaltet das Licht ein, nie aus. Ab Werk sind die Klemmen übrigens mit einer Drahtbrücke geschlossen. Die kommt raus, wenn die Schleife angeschlossen wird.
+SABINE: Das ist das Fail-safe-Prinzip, also sicher im Fehlerfall. Das solltest du dir merken. Die Schleife funktioniert wie eine Kette von Leuten, die sich an den Händen halten. Lässt irgendwer los, egal warum, geht das Licht an. Ob eine Phase fehlt, ein Draht abgerissen ist oder eine D-P-Ü kaputt ist: Jede Unterbrechung schaltet das Licht ein, nie aus. Ab Werk sind die Klemmen übrigens mit einer Drahtbrücke geschlossen. Die kommt raus, wenn die Schleife angeschlossen wird.
 TIM: Und was ist mit einem Kurzschluss in der Schleife? Dann wäre sie ja immer geschlossen.
 SABINE: Genau das ist die Schwachstelle. Deshalb kann man am letzten D-P-Ü-Kontakt eine Zener-Abschlussklemme einbauen. Dann erkennt die Anlage auch einen Kurzschluss und nicht nur eine Unterbrechung.
 TIM: Und wie lang darf so eine Schleife sein?
@@ -137,9 +137,9 @@ SABINE: Such im Schrank die Netzüberwachung und das vierundzwanzig-Volt-Netztei
 ## Wiederholung mit Denkpausen
 
 SABINE: Zeit für die Wiederholung. Frage, Denkpause, dann die Lösung.
-SABINE: Frage eins. Was bedeutet die I-U-Kennlinie?
+SABINE: Frage eins. Was bedeutet die I-U-Kennlinie beim Laden?
 [PAUSE 7]
-TIM: Erst wird der Strom begrenzt, das ist die I-Phase. Ist die Ladespannung erreicht, wird die Spannung konstant gehalten, und der Strom sinkt von allein. Das ist die U-Phase.
+TIM: Erst wird der Strom begrenzt, das ist die Stromphase. Ist die Ladespannung erreicht, wird die Spannung konstant gehalten, und der Strom sinkt von allein. Das ist die Spannungsphase.
 SABINE: Frage zwei. Wie schnell muss eine entladene Batterie wieder geladen sein?
 [PAUSE 6]
 TIM: Nach zwölf Stunden muss sie wieder achtzig Prozent der Nennbetriebsdauer schaffen.
@@ -165,7 +165,7 @@ SABINE: Sehr gut. Damit verstehst du, wie die Anlage auf das Netz reagiert.
 SABINE: Dein Praxisauftrag hat drei Teile. Erstens: Lies beim nächsten Einsatz den Ladestrom am Display ab. Ist er klein, ist die Anlage in Erhaltungsladung. Ist er groß, wird gerade nachgeladen, zum Beispiel nach einem Test.
 TIM: Und als Zweites?
 SABINE: Als Zweites: Schau im Steuerteil oder im Plan nach, wie viele Unterverteilungen überwacht werden und ob die Schleife eine Zener-Abschlussklemme hat. Und drittens: Such das vierundzwanzig-Volt-Netzteil oder die vierundzwanzig Volt an der Busklemmleiste und schau, ob die Leuchtdiode D-C O-K leuchtet. Nur schauen, nicht messen, solange du keine Freigabe hast.
-TIM: Ladestrom, Schleife, vierundzwanzig Volt. Mach ich.
+TIM: Also Ladestrom, Schleife und die vierundzwanzig Volt. Mach ich.
 SABINE: In Folge sieben geht es um die Stromkreise. Die Stromkreismodule, ihre Sicherungen und Leuchtdioden, die Regel mit zwanzig Leuchten und sechzig Prozent, der Joker-Mischbetrieb in der Praxis, die Lichtschalterabfrage und die Isolationsmessung Schritt für Schritt.
 TIM: Danke, Sabine. Bis morgen!
 SABINE: Bis bald, und gute Fahrt!
