@@ -32,7 +32,7 @@ Eine Lernreihe zum Hören (z. B. beim Autofahren), mit Begleitheften zum Nachles
 
 Jede Folge ab Folge 3 hat zusätzlich eine kurze **Transfer-Ecke**: Wie sieht das bei anderen Herstellern aus (z. B. Gessler SiBELON)?
 
-**Rhythmus:** eine Folge pro Abend (ca. 20 Uhr). Feedback und Fragen aus dem Chat landen in [`FEEDBACK.md`](FEEDBACK.md) und fließen in die jeweils nächste Folge ein.
+**Rhythmus:** eine Folge pro Abend (ca. 20 Uhr). *Derzeit pausiert (seit 18.10.2026), bis der Nutzer wieder Bescheid gibt.* Feedback und Fragen aus dem Chat landen in [`FEEDBACK.md`](FEEDBACK.md) und fließen in die jeweils nächste Folge ein.
 
 ## Wie die Reihe aufgebaut ist (Didaktik)
 
