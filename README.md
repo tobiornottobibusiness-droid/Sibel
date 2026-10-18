@@ -22,7 +22,7 @@ Eine Lernreihe zum Hören (z. B. beim Autofahren), mit Begleitheften zum Nachles
 | 4 | **Die Anlage lesen: CPS 220/64 von außen nach innen** | Typenschild entschlüsseln und prüfen, Typenbezeichnung, Schrankaufbau, Baugruppenträger, Klemmleisten X1/X2/X3 (+X4/X5/X8), Betriebsmittelkennzeichen (=, +, −; F, X, A, K, Q, G, T), Plan lesen, Methode „vom Verbraucher zur Quelle“; Praxisfall Kaufel-Unterstation; Transfer-Ecke: Gessler SiBELON und Kaufel viaFlex | ✅ fertig |
 | 5 | **Die Batterie in der Praxis** | Bauarten (verschlossen OGi/Vlies/Gel vs. geschlossen OPzS), Alterung und 25 % Reserve, Temperatur (+10 °C ≈ halbe Lebensdauer), Tiefentladung und Sulfatierung, Einzelblocküberwachung (BCS), Inspektion und Protokoll, Batterietausch, Wasserstoff/Lüftung/Aufstellraum; Transfer: Gessler (verschlossen) und Kaufel (OPzS 1200 Ah) | ✅ fertig |
 | 6 | **Netz, Laden, Umschalten** | Ladeteil und I-U-Kennlinie, Umschaltbetrieb, 12 h/80 %, Netzausfall HV (RIF 5, Meldekontakte, Umschaltzeiten) und UV (DPÜ, Stromschleife, Fail-safe, Zener-Abschluss, DPÜ/B.2), Nachlauf, Handrückschaltung, Blockieren/Fernschalter, **24-V-Hilfsversorgung**; Transfer: Gessler und Kaufel (BS(M), DS) | ✅ fertig |
-| 7 | Stromkreise | CP 4x2A/2x4A/1x6A (FUSION: CF …), Sicherungen, LEDs, 20 Leuchten/60 %, Einschaltstrom, Joker-Mischbetrieb in der Praxis, Lichtschalterabfrage (LSA), Brandabschnitte, Isolationsmessung Schritt für Schritt | geplant |
+| 7 | **Stromkreise** | CP 4x2A/2x4A/1x6A (FUSION: CF …), D.E.R. und 24 V, LEDs, Originalsicherungen, Einschaltstrom, 20 Leuchten/60 % (nachgerechnet), Spannungsfall im Batteriebetrieb, Brandabschnitte, Überwachungsarten, Joker, LSA 3.1/8.1, Isolationsüberwachung und **Isolationsmessung Schritt für Schritt**; Transfer: Gessler und Kaufel | ✅ fertig |
 | 8 | Leuchten und Betriebsgeräte | Rettungszeichen vs. Sicherheitsleuchte, Erkennungsweite und Montagehöhe, Joker-EVG/J-SV-Modul (Mikro- und Adressschalter), Überwachungsarten, Leuchtentausch und neu einlernen, LED-Fehlerbilder, dynamische Leuchten | geplant |
 | 9 | Erweiterungen und Busse | IB1/IB2/IB3, RTG, Unterstation CPUS vs. BUS-Unterstation CPUSB, MTB, Leitungslängen, Funktionserhalt E30, was bei Busausfall passiert | geplant |
 | 10 | Bedienung und Software | Display-Menü, Statusfarben, Prüfbuch lesen, Tests starten, richtig blockieren, Konfigurator, INOWeb/INOView, Gebäudeleittechnik | geplant |
@@ -66,6 +66,7 @@ python3 tools/make_episode.py folgen/folge-01-das-grosse-bild/skript.md         
   - „Amperestunde“ → „Ampere-Stunde“ schreiben.
   - „Zweitens:“ am Satzanfang (Sabine) klingt verwaschen. Besser „Als Zweites:“.
   - „einhundertacht“ statt „hundertacht“ schreiben. Zahlen nicht als kurzes Satzfragment an den Satzanfang stellen.
+  - Kurze Aufzählungen am Satzende (z. B. „Module, Leuchtenliste, Messprotokoll“) werden manchmal englisch gesprochen → als ganzen Satz mit Artikeln schreiben. „Typenschild“ in Transfer-Ecken notfalls umschreiben („Schild mit den Gerätedaten“). „Ah“ ist im Prüfskript verboten (Ampere-Stunde) → „Aha“.
   - Betriebsmittelkennzeichen Ziffer für Ziffer schreiben („F eins null eins“), „einhunderteins“ klingt wie „Heinz“. „Kaufel Via-Flex“ besser umschreiben („ein System von Kaufel“).
 
 ## Wichtiger Hinweis

@@ -40,7 +40,7 @@ SABINE: Das sind dieselben Module, nur an einem anderen Ort, zum Beispiel direkt
 TIM: Kann ich so ein Modul im Betrieb ziehen und tauschen?
 SABINE: Nein. Die Anleitung sagt klar: Stromkreiseinschübe nur im spannungsfreien Zustand wechseln. Also Anlage freischalten nach Anleitung und Betriebsanweisung.
 TIM: Und die Leuchtdioden auf den Modulen?
-SABINE: Die sind dein erster Blick bei einer Störung. Rot und dauernd an heißt Leuchtenstörung. Blinkt eine einzelne rote Leuchtdiode im Abstand von drei Sekunden, hat dieser Stromkreis eine Überlast. Blitzt sie kurz im Halbsekundentakt, fehlt die Ausgangsspannung. Blinken alle vier roten schnell, ist der Bus gestört. Und gelb heißt, das Dauerlicht ist eingeschaltet.
+SABINE: Die sind dein erster Blick bei einer Störung. Rot und dauernd an heißt Leuchtenstörung. Blinkt eine einzelne rote Leuchtdiode im Abstand von drei Sekunden, hat dieser Stromkreis eine Überlast. Blitzt die Leuchtdiode nur kurz auf, im Takt von einer halben Sekunde, fehlt die Ausgangsspannung. Blinken alle vier roten schnell, ist der Bus gestört. Und gelb heißt, das Dauerlicht ist eingeschaltet.
 TIM: Und wenn eine Modulsicherung ausgelöst hat?
 SABINE: Dann fehlt an diesem Stromkreis die Ausgangsspannung, und genau das zeigt die kurz blitzende Leuchtdiode. Bevor du die Sicherung ersetzt, suchst du die Ursache, zum Beispiel einen Kurzschluss in einer Leuchte oder eine Überlast, weil jemand Leuchten dazugehängt hat.
 TIM: Ich fasse zusammen. Ein Modul ist eine Umschaltung zwischen Netz und Batterie. Die Nummer heißt Einschub Punkt Stromkreis. Tauschen nur spannungsfrei. Und die Leuchtdioden verraten mir, ob es eine Leuchtenstörung, eine Überlast oder fehlende Spannung ist.
@@ -110,7 +110,7 @@ SABINE: Sehr gut.
 
 ## Die Isolationsmessung Schritt für Schritt
 
-SABINE: Jetzt der wichtigste Teil. Fangen wir mit dem an, was die Anlage selbst tut. Im Batteriebetrieb, also bei Funktionstest, Betriebsdauertest oder Netzausfall, überwacht sie alle Stromkreise auf Isolationsfehler. Fällt der Isolationswiderstand unter vierhundertsiebzig Kiloohm, meldet sie einen Isolationsfehler.
+SABINE: Jetzt der wichtigste Teil. Fangen wir mit dem an, was die Anlage selbst tut. Im Batteriebetrieb, also bei Funktionstest, Betriebsdauertest oder Netzausfall, überwacht sie alle Stromkreise auf Isolationsfehler. Fällt der Isolationswiderstand unter vierhundertsiebzig Kilo-Ohm, meldet sie einen Isolationsfehler.
 TIM: Warum nur im Batteriebetrieb?
 SABINE: Weil die Batterie nicht geerdet ist. Das ist das I-T-Prinzip aus Folge zwei. Ein einzelner Erdschluss löst noch nichts aus, aber er muss gemeldet werden, bevor ein zweiter dazukommt. Die Anlage unterscheidet übrigens zwischen Isolationsfehler plus und minus, je nachdem, ob der Pluspol oder der Minuspol der Batterie Kontakt zum Schutzleiter hat.
 TIM: Und der I-S-O-Test im Menü?
@@ -120,7 +120,7 @@ SABINE: Schritt eins: das komplette System freischalten, also Netz und Batterie,
 SABINE: Schritt zwei, und das ist der Unterschied zu deiner Ausbildung: Du brückst L und N des Endstromkreises. Gemessen wird nur zwischen dem Schutzleiter und L sowie zwischen dem Schutzleiter und N. Nie zwischen L und N.
 TIM: Warum die Brücke?
 SABINE: Damit die Messspannung nicht zwischen L und N über die Elektronik der Betriebsgeräte geht. Mit der Brücke liegen L und N auf demselben Potential. Die Messspannung belastet dann nur die Isolierung gegen Erde, und genau die willst du ja prüfen.
-SABINE: Schritt drei: Messspannung höchstens fünfhundert Volt Gleichspannung, Messstrom ein Milliampere, und nur mit einem Messgerät nach der Norm V-D-E null vierhundertdreizehn. Den Mindestwert für Stromkreise bis fünfhundert Volt kennst du aus der Ausbildung: ein Megaohm.
+SABINE: Schritt drei: Messspannung höchstens fünfhundert Volt Gleichspannung, Messstrom ein Milliampere, und nur mit einem Messgerät nach der Norm V-D-E null vierhundertdreizehn. Den Mindestwert für Stromkreise bis fünfhundert Volt kennst du aus der Ausbildung: ein Mega-Ohm.
 SABINE: Schritt vier: Brücke wieder entfernen und zum nächsten Stromkreis. Erst eins Punkt eins, dann eins Punkt zwei, eins Punkt drei und so weiter, und auch die Stromkreise der Unterstationen.
 TIM: Und die vierundzwanzig-Volt-Kreise?
 SABINE: Da kommt die wichtigste Warnung. An Stromkreisen mit vierundzwanzig-Volt-Leuchten von INOTEC wird keine Isolationsmessung gemacht. Die Anleitung sagt wörtlich, dass die Leuchten dabei zerstört werden. Ihre Elektronik ist für Kleinspannung gebaut und hält fünfhundert Volt Messspannung nicht aus. Das gilt auch für die vierundzwanzig-Volt-Kreise in Bus-Unterstationen.
@@ -131,9 +131,9 @@ SABINE: Klasse. Und wenn die Anlage im Betrieb einen Isolationsfehler meldet, su
 
 ## Transfer-Ecke: Gessler und Kaufel
 
-SABINE: Wie sieht das bei deinen anderen Anlagen aus? Im Gessler hast du die Endstromkreise schon gesehen: zwanzig Stromkreise, F eins bis F zwanzig, jeweils mit einer roten und einer blauen Sicherungsklemme. Auf dem Typenschild steht beim Teil für die Stromkreise die Angabe zwanzig S. Das steht vermutlich für die zwanzig Stromkreise.
+SABINE: Wie sieht das bei deinen anderen Anlagen aus? Im Gessler hast du die Endstromkreise schon gesehen: zwanzig Stromkreise, F eins bis F zwanzig, jeweils mit einer roten und einer blauen Sicherungsklemme. Auf dem Schild mit den Gerätedaten steht beim Teil für die Stromkreise die Angabe zwanzig S. Das steht vermutlich für die zwanzig Stromkreise.
 TIM: Also zweipolig abgesichert, Plus und Minus. Genau wie die Errichtungsnorm es für Gleichstrom verlangt.
-SABINE: Richtig. Bei Kaufel sitzen die Stromkreise in den Unterstationen. Jede Unterstation hat zwei Stromkreise, auf dem Modul stehen Circuit eins und Circuit zwei. An deiner US zehn hingen an Stromkreis sieben dreizehn Leuchten und an Stromkreis acht acht Leuchten.
+SABINE: Richtig. Bei Kaufel sitzen die Stromkreise in den Unterstationen. Jede Unterstation hat zwei Stromkreise, auf dem Modul stehen Circuit eins und Circuit zwei. An deiner US zehn hingen am siebten Stromkreis dreizehn Leuchten und am achten Stromkreis acht Leuchten.
 TIM: Beide unter zwanzig. Und die Klemmen im Unterverteiler hießen C eins plus, C eins minus, C zwei plus und C zwei minus.
 SABINE: Genau, auch dort zweipolig. Die Leuchten haben bei Kaufel adressierbare Bausteine, die heißen F-L-X. Deshalb musste der Assistent nach dem Tausch die Leuchten suchen. Und die Funktion F-L-X-Ströme zurücksetzen erinnert an das Neu-Einlernen der Referenzströme bei INOTEC.
 TIM: Und meine Frage für den nächsten Einsatz?
@@ -170,7 +170,7 @@ SABINE: Sehr gut. Damit kennst du den Weg von der Anlage bis zur Leuchte.
 SABINE: Dein Praxisauftrag hat drei Teile. Erstens: Schau dir beim nächsten Einsatz die Stromkreismodule an. Welche Typen sind verbaut, und leuchtet irgendwo eine rote oder gelbe Leuchtdiode?
 TIM: Und als Zweites?
 SABINE: Als Zweites: Nimm die Leuchtenliste und prüf in einem Brandabschnitt, zum Beispiel an einem Flur, ob die Leuchten abwechselnd auf zwei Stromkreisen liegen. Und drittens: Such im Prüfbuch das Protokoll der letzten Isolationsmessung. Stehen dort die Werte für jeden Stromkreis, und sind die vierundzwanzig-Volt-Kreise ausgenommen?
-TIM: Module, Leuchtenliste, Messprotokoll. Mach ich.
+TIM: Also die Module, die Leuchtenliste und das Messprotokoll. Mach ich.
 SABINE: In Folge acht geht es um die Leuchten selbst. Rettungszeichen und Sicherheitsleuchten, Erkennungsweite und Montagehöhe, Joker-Betriebsgeräte mit Mikro- und Adressschaltern, Leuchtentausch und Einlernen, und die typischen Fehlerbilder von LED-Leuchten.
 TIM: Danke, Sabine. Bis morgen!
 SABINE: Bis bald, und gute Fahrt!
